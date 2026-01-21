@@ -97,3 +97,47 @@ ul {
   font-weight: normal;
   line-height: 1.4;
 }
+
+/* Gallery Section  */
+.gallery-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: calc(33.333% - 20px);
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer Section  */
+
+.footer {
+  border: 1px solid #333;
+  margin-top: 2rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 2rem;
+
+  text-align: center;
+}
+
+.footer-flex img {
+  width: 130px;
+}
+
+.fab {
+  margin: 5px;
+}
